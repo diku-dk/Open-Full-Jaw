@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<febio_spec version="2.5">
+	<Module type="solid"/>
+	<Control>
+		<time_steps>10</time_steps>
+		<step_size>0.1</step_size>
+		<max_refs>15</max_refs>
+		<max_ups>10</max_ups>
+		<diverge_reform>1</diverge_reform>
+		<reform_each_time_step>1</reform_each_time_step>
+		<dtol>0.001</dtol>
+		<etol>0.01</etol>
+		<rtol>0</rtol>
+		<lstol>0.9</lstol>
+		<min_residual>1e-20</min_residual>
+		<qnmethod>0</qnmethod>
+		<rhoi>0</rhoi>
+		<time_stepper>
+			<dtmin>0.01</dtmin>
+			<dtmax>0.1</dtmax>
+			<max_retries>5</max_retries>
+			<opt_iter>10</opt_iter>
+		</time_stepper>
+		<analysis type="static"/>
+	</Control>
+	<Globals>
+		<Constants>
+			<T>0</T>
+			<R>0</R>
+			<Fc>0</Fc>
+		</Constants>
+	</Globals>
+	<Output>
+		<plotfile type="febio">
+			<var type="displacement"/>
+			<var type="relative volume"/>
+			<var type="stress"/>
+		</plotfile>
+	</Output>
+</febio_spec>

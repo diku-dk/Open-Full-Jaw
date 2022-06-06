@@ -1,0 +1,22 @@
+{
+    "solver_type": "Eigen::CholmodSupernodalLLT",
+    "bodies_discr_order": [
+        {
+            "body_id": 1,
+            "discr": 1
+        },
+        {
+            "body_id": 2,
+            "discr": 2
+        },
+        {
+            "body_id": 3,
+            "discr": 1
+        }
+    ],
+    "export": {
+        "body_ids": true,
+        "paraview": "res.vtu",
+        "material_params": true
+    }
+}
