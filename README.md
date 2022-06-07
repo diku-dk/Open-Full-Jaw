@@ -18,6 +18,7 @@ This repository is composed of **17 patient-specific computational models of hum
 ### 1. Dataset
 
 ![dataset](https://user-images.githubusercontent.com/30265621/169311001-bbbf6a55-941d-4bd3-ae0f-00e9b41f49df.png)
+:warning: Please make sure to install [git lfs](https://git-lfs.github.com/) on your system before cloning the repository.
 
 1. Clinically validated segmented geometries and the resulting unprocessed dense surface meshes
    > - They are original dense meshes, in STL file format.
