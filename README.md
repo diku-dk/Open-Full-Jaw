@@ -22,7 +22,7 @@ This repository comprises **17 patient-specific computational models of human ja
 :warning: Please make sure to install [git lfs](https://git-lfs.github.com/) on your system before cloning the repository.
 
 The [dataset](https://github.com/diku-dk/Open-Full-Jaw/tree/main/dataset) includes:
-1. Clinically validated segmented geometries in form of unprocessed dense surface meshes that can be imported to different meshing tools
+1. [Clinically validated segmented geometries](https://github.com/diku-dk/Open-Full-Jaw/tree/main/images) in form of unprocessed dense surface meshes that can be imported to different meshing tools
 2. The quality and adaptive volumetric meshes to be used directly in FE simulations
 3. The reduced surface meshes with no undesired gaps/penetrations
 4. The principal axes of every patient's teeth that provides great information for setting up different scenarios automatically
