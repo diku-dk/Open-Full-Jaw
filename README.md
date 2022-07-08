@@ -4,18 +4,21 @@
 ### Table of contents
 * [Motivation](#motivation)
 * [Content of the repository](#content-of-the-repository)
-* [Installation](#installation)
+* [How to cite us](#how-to-cite-us)
+* [How to install](#how-to-install)
 * [How to use](#how-to-use)
 * [Features](#features)
+* [Funding](#funding)
+* [Acknowledgements](#acknowledgements)
 
-### Motivation
+## Motivation
 Developing accurate patient-specific computational models of the human jaw acquired from cone-beam computed tomography (CBCT) scans is labor-intensive and non-trivial. In addition, it involves time-consuming unreproducible manual procedures. Hence, we share an open-access dataset of 17 patient-specific computational models of human jaws and the utilized pipeline for generating them.
 
-### Content of the repository
+## Content of the repository
 This repository comprises **17 patient-specific computational models of human jaws (including the mandible, maxilla, their associated teeth, and PDL meshes, as well as teeth principal axes)** and the utilized **code** for generating them.
 
 
-#### 1. Dataset
+### 1. Dataset
 
 ![dataset_gallery_named](https://user-images.githubusercontent.com/30265621/172655083-a12f4842-aaa8-4a69-be95-2cfde6063008.png)
 
@@ -29,14 +32,29 @@ The [dataset](https://github.com/diku-dk/Open-Full-Jaw/tree/main/dataset) includ
 5. The automatically generated FEM files for tipping scenario and a biting scenario
   
 
-#### 2. Code for reproducibility of dataset
+### 2. Code for reproducibility of dataset
 
 6. The python code utilized for generating the volumetric meshes and producing the simulation files is shared in this repository. A summary of the pipeline is illustrated as follows
 
 ![](https://user-images.githubusercontent.com/30265621/168096619-a86fc97d-3887-49eb-a05e-590ac90d8822.png)
 High resolution PDF format: [graphical abstract](./graphical_abstract_final.pdf)
 
-### Installation
+## How to cite us
+If you use the content of this repository please consider to cite us as below,
+
+```bibtex
+@article{OpenFullJaw,
+  title     = {{O}pen-{F}ull-{J}aw: {A}n open-access dataset and pipeline for finite element models of human jaw},  
+  author    = {Gholamalizadeh, Torkan and Moshfeghifar, Faezeh and Ferguson, Zachary and Schneider, Teseo and Panozzo, Daniele and Darkner, Sune and Makaremi, Masrour and Chan, François and S{\o}ndergaard, Peter Lempel and Erleben, Kenny},
+  journal   = {Computer Methods and Programs in Biomedicine},
+  month     = {July},
+  year      = {2022},
+  publisher = {Elsevier}
+}
+```
+
+
+## How to install
 
 #### Setting up the conda environment and the required packages
 
@@ -59,7 +77,7 @@ conda install -c anaconda scikit-image
 
 :bangbang: **Note that our pipeline uses fTetWild as a backbone for volumetric mesh generation. Therefore, you need to install the [fTetWild](https://wildmeshing.github.io/ftetwild/) in the desired directory on your system.**
 
-### How to use
+## How to use
 First, activate the environment, then run jupyter notebook: 
 ```python
 conda activate fulljaw
@@ -72,7 +90,7 @@ Now you can open and run the [pipeline.ipynb](https://github.com/diku-dk/Open-Fu
 path_ftetwild = '/your_desired_directory/fTetWild/build/FloatTetwild_bin'
 
 
-### Features
+## Features
 
 #### Params of step1 (Preprocessing and Smoothing)
 * ***preprocess_bone_eps:*** The epsilon value for fTetWild used in preprocessing of the bone mesh.
@@ -144,12 +162,12 @@ self.max_iter       =  20
 self.ftet_path      =  path_ftetwild
 self.output_dir     =  mid_o_dir 
 ```
-### Funding
+## Funding
 - This project has received funding from the European Union's Horizon 2020 research and innovation program under the Marie Sklodowska-Curie grant agreement No. 764644. This paper only contains the authors' views, and the Research Executive Agency and the Commission are not responsible for any use that may be made of the information it contains. 
 - This work was also partially supported by the NSF CAREER award under Grant No. 1652515, the NSF grants OAC-1835712, OIA-1937043, CHS-1908767, CHS-1901091, NSERC DGECR-2021-00461 and RGPIN-2021-03707, a Sloan Fellowship, a gift from Adobe Research and a gift from Advanced Micro Devices, Inc.
 - The funders had no role in study design, data collection/analysis, publication decision, or manuscript preparation.
 
-### Acknowledgements
+## Acknowledgements
 - We thank 3Shape A/S for providing this study's CBCT scans
 - We especially thank the 3Shape A/S Dental CAD AI team for their support in the CBCT segmentation and teeth principal axes computations. 
 - We also thank NYU IT High-Performance Computing for resources, services, and staff expertise. 
