@@ -169,7 +169,7 @@ self.output_dir     =  mid_o_dir
 
 ## Acknowledgements
 - We thank 3Shape A/S for providing this study's CBCT scans
-- We especially thank the 3Shape A/S Dental CAD AI team for their support in the CBCT segmentation and teeth principal axes computations. 
+- We especially thank 3Shape A/S Dental CAD AI team for their support in the CBCT segmentation and teeth principal axes computations. 
 - We also thank NYU IT High-Performance Computing for resources, services, and staff expertise. 
 
 
