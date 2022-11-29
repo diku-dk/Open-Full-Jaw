@@ -43,14 +43,16 @@ High resolution PDF format: [graphical abstract](./graphical_abstract_final.pdf)
 If you use the content of this repository please consider to cite us as below,
 
 ```bibtex
-@article{OpenFullJaw,
-  title     = {{O}pen-{F}ull-{J}aw: {A}n open-access dataset and pipeline for finite element models of human jaw},  
-  author    = {Gholamalizadeh, Torkan and Moshfeghifar, Faezeh and Ferguson, Zachary and Schneider, Teseo and Panozzo, Daniele and Darkner, Sune and Makaremi, Masrour and Chan, François and S{\o}ndergaard, Peter Lempel and Erleben, Kenny},
+@article{gholamalizadeh2022open,
+  title     = {Open-Full-Jaw: An open-access dataset and pipeline for finite element models of human jaw},
+  author    = {Gholamalizadeh, Torkan and Moshfeghifar, Faezeh and Ferguson, Zachary and Schneider, Teseo and Panozzo, Daniele and Darkner, Sune and Makaremi, Masrour and Chan, Fran{\c{c}}ois and S{\o}ndergaard, Peter Lampel and Erleben, Kenny},
   journal   = {Computer Methods and Programs in Biomedicine},
-  month     = {July},
+  volume    = {224},
+  pages     = {107009},
   year      = {2022},
   publisher = {Elsevier}
 }
+
 ```
 
 
