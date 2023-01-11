@@ -1,5 +1,5 @@
 # Open-Full-Jaw Dataset Repository
-> An open-access dataset and nearly-automated pipeline for generating finite element models of the human jaw
+> An open-access dataset and nearly-automated pipeline for generating finite element models of the human jaw ([ link to the article](https://www.sciencedirect.com/science/article/pii/S0169260722003911) )
 
 ### Table of contents
 * [Motivation](#motivation)
@@ -77,7 +77,7 @@ conda install -c anaconda scikit-image
 #### Other Dependencies
 :bangbang: **You need to install [PyMesh](https://github.com/PyMesh/PyMesh) by cloning the repository and building it on your machine.**
 
-:bangbang: **Note that our pipeline uses fTetWild as a backbone for volumetric mesh generation. Therefore, you need to install the [fTetWild](https://wildmeshing.github.io/ftetwild/) in the desired directory on your system.**
+:bangbang: **Note that our pipeline uses fTetWild as a backbone for volumetric mesh generation. Therefore, you need to install the [fTetWild](https://wildmeshing.github.io/ftetwild/) by cloning the repository and building it on your machine in a desired directory.**
 
 ## How to use
 First, activate the environment, then run jupyter notebook: 
