@@ -37,7 +37,7 @@ The [dataset](https://github.com/diku-dk/Open-Full-Jaw/tree/main/dataset) includ
 6. The python code utilized for generating the volumetric meshes and producing the simulation files is shared in this repository. A summary of the pipeline is illustrated as follows
 
 ![](https://user-images.githubusercontent.com/30265621/168096619-a86fc97d-3887-49eb-a05e-590ac90d8822.png)
-High resolution PDF format: [graphical abstract](./graphical_abstract_final.pdf)
+High resolution PDF format: [graphical abstract](./images/graphical_abstract_final.pdf)
 
 ## How to cite us
 If you use the content of this repository please consider to cite us as below,
